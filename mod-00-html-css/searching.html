@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>DevJobs - Resultados de Búsqueda - Joda - JSCamp - Practices</title>
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="Encuentra las mejores ofertas de trabajo para desarrolladores en DevJobs" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="global.css" />
+  </head>
+
+  <body>
+    <header class="header-main">
+      <div class="header-logo main-logo">
+        <a href="./index.html">
+          <span class="icon-logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-code"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M7 8l-4 4l4 4" />
+              <path d="M17 8l4 4l-4 4" />
+              <path d="M14 4l-4 16" />
+            </svg>
+          </span>
+          <span class="text-logo">DevJobs</span>
+        </a>
+      </div>
+
+      <nav class="header-menu">
+        <ul>
+          <li>
+            <a href="./searching.html">
+              <span>Empleos</span>
+            </a>
+          </li>
+          <li>
+            <a href="#empresas">
+              <span>Empresas</span>
+            </a>
+          </li>
+          <li>
+            <a href="#salarios">
+              <span>Salarios</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="action-publish" href="#publicar">Publicar un empleo</a>
+        <a class="action-login" href="#login-in">Iniciar sesion</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="searching container">
+        <header class="searching-header header-section">
+          <h1>Encuentra tu proximo trabajo </h1>
+
+          <p>Explora miles de oportunidades en el sector tecnologico.</p>
+        </header>
+
+        <form role="search" class="searching-form">
+          <div class="searching-search--input">
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-search"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                <path d="M21 21l-6 -6" />
+              </svg>
+            </span>
+
+            <input type="text" placeholder="Buscar empleos por titulo, habilidad o empresa" />
+          </div>
+
+          <div class="searching-filters">
+            <select name="tecnology" id="select-tecnology">
+              <option value="">JavaScript</option>
+              <option value="">Python</option>
+              <option value="">Java</option>
+              <option value="">C#</option>
+              <option value="">Ruby</option>
+              <option value="">PHP</option>
+              <option value="">C++</option>
+            </select>
+            <select name="location" id="select-location">
+              <option value="">Remoto</option>
+              <option value="">Presencial</option>
+              <option value="">Híbrido</option>
+            </select>
+            <select name="contract" id="select-contract">
+              <option value="">Tiempo completo</option>
+              <option value="">Medio tiempo</option>
+              <option value="">Contrato</option>
+              <option value="">Freelance</option>
+            </select>
+            <select name="experience" id="select-experience">
+              <option value="">Junior</option>
+              <option value="">Semi-Senior</option>
+              <option value="">Senior</option>
+            </select>
+          </div>
+        </form>
+
+        <div class="searching-results-container">
+          <h2>Resultados de busqueda</h2>
+
+          <div class="searching-results">
+            <article class="result">
+              <header>
+                <h3> Ingeniero de Software </h3>
+                <div>
+                  <span>Tech Solution Inc.</span>
+                  <span>|</span>
+                  <span>Remoto</span>
+                </div>
+                <p>
+                  Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener
+                  buenas habilidades de comunicacion.
+                </p>
+              </header>
+
+              <div class="result-action">
+                <a href="#">
+                  <span>Aplicar</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="result">
+              <header>
+                <h3> Ingeniero de Software </h3>
+                <div>
+                  <span>Tech Solution Inc.</span>
+                  <span>|</span>
+                  <span>Remoto</span>
+                </div>
+                <p>
+                  Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener
+                  buenas habilidades de comunicacion.
+                </p>
+              </header>
+
+              <div class="result-action">
+                <a href="#">
+                  <span>Aplicar</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="result">
+              <header>
+                <h3> Ingeniero de Software </h3>
+                <div>
+                  <span>Tech Solution Inc.</span>
+                  <span>|</span>
+                  <span>Remoto</span>
+                </div>
+                <p>
+                  Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener
+                  buenas habilidades de comunicacion.
+                </p>
+              </header>
+
+              <div class="result-action">
+                <a href="#">
+                  <span>Aplicar</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="result">
+              <header>
+                <h3> Ingeniero de Software </h3>
+                <div>
+                  <span>Tech Solution Inc.</span>
+                  <span>|</span>
+                  <span>Remoto</span>
+                </div>
+                <p>
+                  Buscamos un ingeniero de software con experiencia en desarrollo web y conocimientos en JavaScript, React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener
+                  buenas habilidades de comunicacion.
+                </p>
+              </header>
+
+              <div class="result-action">
+                <a href="#">
+                  <span>Aplicar</span>
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        <span>&copy; 2025 DevJobs. Todos los derechos reservados.</span>
+      </p>
+    </footer>
+  </body>
+</html>
